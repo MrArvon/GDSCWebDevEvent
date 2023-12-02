@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-name {
+  font-size: 1.5em;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Home */
+.my-detail {
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Hobby */
+.container-hobby {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.hobby-title {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hobby-code,
+.hobby-badminton,
+.hobby-game {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hobby-code img,
+.hobby-badminton img,
+.hobby-game img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hobby-code p,
+.hobby-badminton p,
+.hobby-game p {
+  margin-top: 10px;
+}
+
+/* Contact */
+.container-contact {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin: 15px 0;
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
