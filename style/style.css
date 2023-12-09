@@ -1,0 +1,79 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div, article, header {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 30px;
+}
+
+.navbar a {
+  color: white;
+}
+
+/* HOME */
+.home-page {
+  width: 50%;
+  margin: 20px auto
+}
+
+.home-page img {
+  float: left;
+}
+
+.profile-desc {
+  margin: 0 20px;
+  text-align: justify;
+}
+
+/* HOBBY */
+.container-hobby img {
+  width: 100px;
+  height: 100px;
+}
+
+.hobby-container {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-hobby {
+  flex: 0 45%; 
+  margin-bottom: 20px; 
+  padding: 10px; 
+  background-color: #bebebe32;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CONTACT */
+.contact-page {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.contact-page input[type="text"],
+.contact-page input[type="radio"],
+.contact-page input[type="checkbox"] {
+  float: left;
+}
+
+.contact-page label {
+  display: block;
+}
+.contact-page input[type="submit"] {
+  float: right;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
